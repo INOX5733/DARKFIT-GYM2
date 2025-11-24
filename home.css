@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+
+/* ---------------- NAVBAR ---------------- */
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    background: #1f1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    opacity: 0.7;
+}
+
+
+/* ---------------- HERO SECTION ---------------- */
+
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+     background: url("ARNOLD\ WALLPAPER\ 4K.jfif") no-repeat center center/cover;
+    position: relative;
+}
+
+.hero-img {
+    width: 45%;
+    border-radius: 10px;
+    opacity: 0.85; 
+}
+
+.conteudo {
+    width: 45%;
+}
+
+.conteudo h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.conteudo h1 span {
+    color: #c91111;
+}
+
+.conteudo p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #ffffff;
+    max-width: 420px;
+    line-height: 1.5em;
+}
+
+.botoes {
+    margin-top: 30px;
+}
+
+.btn-red {
+    background: #ff2a2a;
+    color: #f1efef;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-red:hover {
+    background: #cc0000;
+}
+
+.btn-outline {
+    border: 2px solid #ff2a2a;
+    color: #ff2a2a;
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: #ff2a2a;
+    color: #fcfcfc;
+}
+footer {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    background: #111;      /* fundo escuro */
+    color: #aaa;           /* texto cinza suave */
+    font-size: 14px;
+    margin-top: 40px;      /* distância do conteúdo acima */
+    border-top: 1px solid #222;   /* linha sutil */
+}
+
+footer p {
+    margin: 0;
+}
+
